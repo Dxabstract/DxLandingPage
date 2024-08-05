@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-
 import Section1 from './components/section1'
+import Section3 from './components/section3'
 
 
 function App() {
@@ -10,7 +8,7 @@ function App() {
     <>
       <Section1/>
 
-
+    <Section3/>
     </>
   )
 }
