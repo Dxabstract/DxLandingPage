@@ -10,7 +10,8 @@ export default {
         'aboutBG': "url('src/assets/aboutBG.jpg')",
       },
       fontSize: {
-        // className="font-fontTitle"
+        // className="text-fontTitle"
+        'fontBigTitles': '76px',
         'fontTitle': '46px',
         'fontSubTitle': '24px',
         'fontDefault': '18px',

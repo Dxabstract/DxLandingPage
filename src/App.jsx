@@ -8,7 +8,7 @@ function App() {
     <>
       <Section1/>
 
-    <Section3/>
+    {/* <Section3/> */}
     </>
   )
 }
