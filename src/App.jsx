@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-
-import Section1 from './components/section1'
+import NavBarComponent from './components/navBarComponent'
+import { NavigationProvider } from './context/buttonContext';
+import Section1 from './components/section1';
+import Section2 from './components/section2'
+import Section3 from './components/section3';
 
 
 function App() {
-
   return (
-    <>
-      <Section1/>
-
-
-    </>
-  )
+    <NavigationProvider>
+      <NavBarComponent/>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+    </NavigationProvider>
+  );
 }
 
-export default App
+export default App;

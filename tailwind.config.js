@@ -1,8 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'aboutBG': "url('src/assets/aboutBG.jpg')",
+      },
+      fontSize: {
+        // className="text-fontTitle"
+        'fontBiggestTitles': '76px',
+        'fontBigTitles': '55px',
+        'fontTitle': '45px',
+        'fontSubTitle': '35px',
+        'fontDefault': '16px',
+        'badge':'13px'
+      },
+      fontFamily: {
+        // className="font-inter"
+        inter: ['Inter', 'sans-serif'], 
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      borderRadius: {
+        'roundedBTN2': '12px',
+      }
+    },
   },
   plugins: [],
 }
