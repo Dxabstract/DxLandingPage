@@ -11,10 +11,11 @@ export default {
       },
       fontSize: {
         // className="text-fontTitle"
-        'fontBigTitles': '76px',
+        'fontBiggestTitles': '76px',
+        'fontBigTitles': '69px',
         'fontTitle': '46px',
         'fontSubTitle': '24px',
-        'fontDefault': '18px',
+        'fontDefault': '21px',
       },
       fontFamily: {
         // className="font-inter"
