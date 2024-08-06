@@ -1,21 +1,18 @@
 import NavBarComponent from './components/navBarComponent'
-import Section1 from './components/section1'
+import { NavigationProvider } from './context/buttonContext';
+import Section1 from './components/section1';
 import Section2 from './components/section2'
-import Section3 from './components/section3'
+import Section3 from './components/section3';
 
 
 function App() {
-
   return (
-    <>
-      <NavBarComponent/>
-
-      <Section1/>
-      <Section2/>
-
-      <Section3/>
-    </>
-  )
+    <NavigationProvider>
+      <Section1 />
+      <Section2 />
+      <Section3 />
+    </NavigationProvider>
+  );
 }
 
-export default App
+export default App;

@@ -1,9 +1,11 @@
 import React from 'react'
-
 import logoDx from '../assets/logoDx.svg'
+import { useLanguage } from '../context/languageContext';
+import { translations } from '../translations';
 
 
 function NavBarComponent() {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <div id='HeaderContent' className="container lg:container-xl mx-auto mt-[21px]">
       <header className='flex items-center justify-between'>
@@ -23,7 +25,11 @@ function NavBarComponent() {
               <li>
                 <button className='text-fontDefault'>Contact Us</button>
               </li>
-              
+              <li>
+                <button onClick={toggleLanguage}>
+                  {translations[language].language}: {language.toUpperCase()}
+                </button>
+              </li>
             </ul>
           </div>
         </nav>
