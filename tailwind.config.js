@@ -16,12 +16,16 @@ export default {
         'fontTitle': '46px',
         'fontSubTitle': '24px',
         'fontDefault': '21px',
+        'badge':'13px'
       },
       fontFamily: {
         // className="font-inter"
         inter: ['Inter', 'sans-serif'], 
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      borderRadius: {
+        'roundedBTN2': '12px',
+      }
     },
   },
   plugins: [],
