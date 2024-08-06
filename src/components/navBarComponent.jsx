@@ -5,10 +5,9 @@ import logoDx from '../assets/logoDx.svg'
 
 function NavBarComponent() {
   return (
-    <div id='HeaderContent' className="container  lg:container-xl mx-auto mt-[21px]">
+    <div id='HeaderContent' className="container lg:container-xl mx-auto mt-[21px]">
       <header className='flex items-center justify-between'>
         <img className='' src={logoDx} alt="Logo Dx abstract" width={175} height={48} />
-
         <nav id='NavBarContent'>
           <div>
             <ul className='flex md:gap-7 lg:gap-[64px]'>
