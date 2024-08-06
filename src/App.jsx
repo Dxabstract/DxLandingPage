@@ -8,6 +8,7 @@ import Section3 from './components/section3';
 function App() {
   return (
     <NavigationProvider>
+      <NavBarComponent/>
       <Section1 />
       <Section2 />
       <Section3 />

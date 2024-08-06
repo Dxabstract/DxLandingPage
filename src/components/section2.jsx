@@ -7,7 +7,7 @@ const Section2 = () => {
     return (
         <div className='h-[100vh] flex justify-center'>
 
-            <div className='relative container sm:max-[1025px]:mx-9 max-w-[1111px] h-full max-h-[511px]'>
+            <div className='relative container sm:max-[1190px]:mx-9 max-w-[1111px] h-full max-h-[511px]'>
                 <div className='absolute inset-0 bg-[#3C3C43] opacity-25 rounded-[20px]'></div>
 
 
@@ -30,7 +30,7 @@ const Section2 = () => {
                         <ItemBadge text={'Consultoria'} color={'#1A597D'}/>
                         </div>
                         <div className='w-[70%] h-full pt-[5%]'> 
-                            <p className='md:text-fontDefault lg:text-fontSubTitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.</p>
+                            <p className='md:text-fontDefault lg:text-[22px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.</p>
                         </div>
                     </div>
                     <div className='w-[50%] flex items-center pr-[5%]'>
