@@ -12,10 +12,10 @@ export default {
       fontSize: {
         // className="text-fontTitle"
         'fontBiggestTitles': '76px',
-        'fontBigTitles': '69px',
-        'fontTitle': '46px',
+        'fontBigTitles': '55px',
+        'fontTitle': '35px',
         'fontSubTitle': '24px',
-        'fontDefault': '21px',
+        'fontDefault': '16px',
         'badge':'13px'
       },
       fontFamily: {
