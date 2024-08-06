@@ -1,21 +1,25 @@
 import React from 'react';
 import NavBarComponent from './navBarComponent';
-
 import logoDxST from '../assets/logoDxST.svg'
 import logoInstagram from '../assets/instagram.svg'
 import logoWhatsapp from '../assets/whatsapp.svg'
 import logoLinkedin from '../assets/linkedin.svg'
+import { useLanguage } from '../context/languageContext';
+import { translations } from '../translations';
 
 
 const Section1 = () => {
+    const { language } = useLanguage();
 
     return (
-        <div className='h-[924px]' >
+        <div className='h-[100vh] flex flex-col justify-between items-center' >
             <NavBarComponent/>
-            <div className='pt-[285px] flex items-center flex-col gap-[24px]' >
+            <div className='' >
                 <h1 className='2xl:text-fontBigTitles lg:text-fontBigTitles text-fontTitle font-montserrat font-semibold text-center   '>
-                    Potencia tu Recorrido Creativo <br/>
-                    Diseña aquí. Desarrolla aquí
+                
+                <span>{translations[language].welcome}</span>
+                <br />
+                <span>{translations[language].welcome2}</span>
                 </h1>
 
                 <p className='text-fontDefault text-center'>

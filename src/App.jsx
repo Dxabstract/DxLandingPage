@@ -1,16 +1,15 @@
-import Section1 from './components/section1'
-import Section3 from './components/section3'
+import { NavigationProvider } from './context/buttonContext';
+import Section1 from './components/section1';
+import Section3 from './components/section3';
 
 
 function App() {
-
   return (
-    <>
-      <Section1/>
-
-      <Section3/>
-    </>
-  )
+    <NavigationProvider>
+      <Section1 />
+      <Section3 />
+    </NavigationProvider>
+  );
 }
 
-export default App
+export default App;

@@ -13,8 +13,8 @@ export default {
         // className="text-fontTitle"
         'fontBiggestTitles': '76px',
         'fontBigTitles': '55px',
-        'fontTitle': '35px',
-        'fontSubTitle': '24px',
+        'fontTitle': '45px',
+        'fontSubTitle': '35px',
         'fontDefault': '16px',
         'badge':'13px'
       },
