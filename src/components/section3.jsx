@@ -5,7 +5,7 @@ import itemCode from '../assets/itemCode.svg';
 import itemCons from '../assets/itemCons.svg';
 
 
-const Section3R = () => {
+const Section3 = () => {
 
     return (
         <div className='lg:container lg:mx-auto h-fit mb-[200px] [@media(max-height:640px)]:mt-[100px]  flex max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
@@ -63,4 +63,4 @@ const Section3R = () => {
     )
 }
 
-export default Section3R
+export default Section3
