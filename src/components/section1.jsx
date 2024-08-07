@@ -3,13 +3,15 @@ import logoDxST from '../assets/logoDxST.svg'
 import logoInstagram from '../assets/instagram.svg'
 import logoWhatsapp from '../assets/whatsapp.svg'
 import logoLinkedin from '../assets/linkedin.svg'
+import { useTranslation } from 'react-i18next';
 
 
 const Section1 = () => {
-
+    const { t } = useTranslation();
     return (
         <div className='h-[100vh] flex justify-center flex-col gap-5'>
             <div className='flex items-center flex-col gap-[24px]' >
+                <h1>{t('welcome')}</h1>
                 <h1 className='leading-[100%] 2xl:text-fontBigTitles lg:text-fontBigTitles text-fontTitle font-montserrat font-semibold text-center   '>
                     Potencia tu Recorrido Creativo <br className='block max-sm:hidden'/>
                     Diseña aquí. Desarrolla aquí
