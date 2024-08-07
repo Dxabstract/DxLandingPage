@@ -6,17 +6,15 @@ import ContentIMG from './contentAboutSlideIMG';
 
 const Content = () => {
     const { selectedView, badges, badges2, badges3 } = useContext(NavigationContext);
-  
+
     const renderContent = () => {
       switch (selectedView) {
         case 0:
-          return <CardAboutUs text={"Hola somo DxAbstract"} badge={badges} />;
+          return <CardAboutUs text={"Raigo, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges} />;
         case 1:
-          return <CardAboutUs text={"Hola soy Raigo"} badge={badges} />;
+          return <CardAboutUs text={"Sofia, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges2} />;
         case 2:
-          return <CardAboutUs text={"Hola soy Sofi"} badge={badges2} />;
-        case 3:
-          return <CardAboutUs text={"Hola soy Cuervo"} badge={badges3} />;
+          return <CardAboutUs text={"Cuervo, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges3} />;
         default:
           return <h1>Welcome</h1>;
       }

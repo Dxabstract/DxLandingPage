@@ -8,6 +8,10 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { NavigationContext } from '../context/buttonContext';
 
+import IconCuervo from '../assets/iconCuervo.svg';
+import IconRaigo from '../assets/iconRaigo.svg';
+import IconSofia from '../assets/iconSofia.svg';
+
 
 export default function MyBottomNavigation() {
   const { selectedView, setSelectedView } = useContext(NavigationContext);
@@ -18,10 +22,18 @@ export default function MyBottomNavigation() {
 
   return (
     <BottomNavigation showLabels value={selectedView} onChange={handleChange}>
-      <BottomNavigationAction label="DxA" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Raigo" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Sofi" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Cuervo" icon={<LocationOnIcon />} />
+      <BottomNavigationAction 
+        label="Raigo"
+        icon={<img className='max-w-[62px]' src={IconRaigo} alt="Cuervo Icon" />} 
+      />
+      <BottomNavigationAction 
+        label="Sofia"
+        icon={<img className='max-w-[62px]' src={IconSofia} alt="Cuervo Icon" />} 
+      />
+      <BottomNavigationAction 
+        label="Cuervo"
+        icon={<img className='max-w-[62px]' src={IconCuervo} alt="Cuervo Icon" />} 
+      />
     </BottomNavigation>
   );
 }
