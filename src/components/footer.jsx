@@ -4,6 +4,8 @@ import whatsapp from '../assets/whatsapp.svg';
 import linkedin from '../assets/linkedin.svg';
 import instagram from '../assets/instagram.svg';
 import iconCuervo from '../assets/iconCuervo.svg';
+import iconRaigo from '../assets/iconRaigo.svg';
+import iconSofia from '../assets/iconSofia.svg';
 import { LanguageContext } from '../context/languajeContext';
 
 function Footer() {
@@ -15,19 +17,19 @@ const { changeLanguage } = useContext(LanguageContext);
   };
   return (
     <div className='w-[100%] bg-[#242424] p-[50px]'>
-       <div className='flex'>
-        <div className='w-[30%]'>
+       <div className='flex justify-between max-md:flex-col max-md:gap-6 max-md:items-center'>
+        <div className='md:w-[30%]'>
             <img src={logo} alt="" width={200}/>
             <p className='text-badge mt-[15px]'>© Copyright - DxAbstract - 2024</p>
         </div>
-        <div className='w-[20%]'>
-            <p className='text-[16px] font-semibold'>Contactar</p>
-            <p className='mt-[15px] font-extralight	text-[#D8D7D7]'>Escribenos</p>
-            <p className='font-bold'>dxabstract@gmail.com</p>
+        <div className='md:w-[20%] max-md:flex max-md:flex-col max-md:items-center'>
+            <p className='text-[16px] font-semibold'>Contactanos</p>
+            <p className='mt-[15px] font-extralight	text-[#D8D7D7]'>Correo</p>
+            <p className='max-md:mt-2 font-bold'>dxabstract@gmail.com</p>
         </div>
-        <div className='w-[20%]'>
-            <p className='text-[16px] font-semibold'>Siganos</p>
-            <div className='flex gap-[20px] mt-[15px]'>
+        <div className='md:w-[20%]'>
+            <p className='text-[16px] font-semibold'>Siguenos en</p>
+            <div className='flex gap-[20px] mt-[15px] '>
                 <a href="">
                     <img src={whatsapp} alt="" width={20}/>
                 </a>
@@ -39,13 +41,13 @@ const { changeLanguage } = useContext(LanguageContext);
                 </a>
             </div>
         </div>
-        <div className='flex gap-[20px] w-[20%]'>
-            <img src={iconCuervo} alt="" width={40}/>
-            <img src={iconCuervo} alt="" width={40}/>
-            <img src={iconCuervo} alt="" width={40}/>
+        <div className='flex gap-[20px] md:w-[20%] max-md:justify-center'>
+            <img src={iconCuervo} alt="icono de cuervo" width={40}/>
+            <img src={iconRaigo} alt="icono de raigoza" width={40}/>
+            <img src={iconSofia} alt="icono de sofia" width={40}/>
         </div>
        </div>
-       <div className='mt-[50px]'>
+       <div className='mt-[50px] max-md:hidden'>
         <ul className='flex gap-[10%]'>
         <li><select onChange={handleLanguageChange} className='bg-[#00000000] font-bold'>
               <option value="en" className='bg-[#00000000] text-[#242424] font-bold'>

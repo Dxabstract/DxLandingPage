@@ -28,7 +28,7 @@
 
 #listOptions {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   cursor: pointer;
 }
 
@@ -50,7 +50,7 @@
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #NavBarContent {
     display: none;
     position: absolute;
@@ -73,5 +73,11 @@
 
   #menu-toggle:checked ~ #NavBarContent {
     transform: translateX(0px);
+  }
+}
+
+@media (max-width: 1024px) {
+  #listOptions {
+    gap: 20px;
   }
 }
