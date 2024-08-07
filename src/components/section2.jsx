@@ -5,7 +5,7 @@ import LogoDxGreen from '../assets/LogoDxGreen.svg';
 const Section2 = () => {
 
     return (
-        <div className='h-[80vh] flex justify-center'>
+        <div className='2xl:h-[70vh] h-[80vh] flex justify-center'>
 
             <div className='relative container sm:max-[1190px]:mx-9 max-w-[1111px] h-full max-h-[511px]'>
                 <div className='absolute inset-0 bg-[#3C3C43] opacity-25 rounded-[20px]'></div>
@@ -40,12 +40,12 @@ const Section2 = () => {
 
                 <div className='flex items-start h-[70%] p-4 w-full sm:hidden'>
                     <div className='w-[70%]'>
-                        <div className='pr-3 h-full pt-[5%] flex items-center'> 
+                        <div className='pr-3 h-full pt-7 flex items-center'> 
                             <p className='text-[16px] text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.</p>
                         </div>
                     </div>
                     <div className='w-[50%] flex items-center pt-7'>
-                        <div className='flex gap-[20px] flex-wrap'>
+                        <div className='flex gap-[20px] flex-wrap pt-6'>
                             <ItemBadge text={'Diseño web'} color={'#A7D910'}/>
                             <ItemBadge text={'Desarrollo de software'} color={'#FFFFFF'}/>
                             <ItemBadge text={'Branding'} color={'#2FA2E3'}/>

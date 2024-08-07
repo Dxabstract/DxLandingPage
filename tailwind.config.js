@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'aboutBG': "url('src/assets/aboutBG.jpg')",
-      },
+      // backgroundImage: {
+      //   'aboutBG': "url('src/assets/aboutBG.jpg')",
+      // },
       fontSize: {
         // className="text-fontTitle"
         'fontBiggestTitles': '76px',

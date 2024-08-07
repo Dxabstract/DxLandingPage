@@ -8,7 +8,7 @@ import itemCons from '../assets/itemCons.svg';
 const Section3 = () => {
 
     return (
-        <div className='lg:container lg:mx-auto h-fit mb-[200px] [@media(max-height:640px)]:mt-[100px]  flex max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
+        <div className='lg:container lg:mx-auto h-fit mb-[100px] [@media(max-height:640px)]:mt-[100px]  flex justify-center max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
             <div className='w-full max-w-[742px]'>
                 <div className='h-[50%] max-h-[722px] border border-[#808080] border-opacity-[55%] flex justify-center pt-9 max-lg:pb-6'>
                     {/* First Element 0x0 */}
