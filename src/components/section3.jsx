@@ -15,7 +15,7 @@ const Section3 = () => {
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
                         <div>
                             <h3 className='text-[#a7d910] text-[18px] font-montserrat'>Diseño web</h3>
-                            <p className='text-[25px] font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            <p className='text-[25px] font-bold'>Transforma tus ideas en experiencias digitales impactantes.</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemDesing} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -26,7 +26,7 @@ const Section3 = () => {
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
                         <div>
                             <h3 className='text-[#2FA2E3] text-[18px] font-montserrat'>Branding</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            <p className='pt-3 text-[25px] font-bold'>Construimos marcas que resuenan y perduran en el mercado.</p>
                         </div>
                         <img className='lg:max-w-[565px]' src={itemBranding} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -39,7 +39,7 @@ const Section3 = () => {
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
                         <div>
                             <h3 className='text-white text-[18px] font-montserrat'>Desarrollo de software</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            <p className='pt-3 text-[25px] font-bold'>Creamos soluciones de software a medida que impulsan tu negocio.</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemCode} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -51,7 +51,7 @@ const Section3 = () => {
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
                         <div>
                             <h3 className='text-[#1A597D] text-[18px] font-montserrat'>Consultoria</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            <p className='pt-3 text-[25px] font-bold'>Guiamos tu crecimiento con estrategias digitales personalizadas.</p>
                         </div>
                         <img className='lg:max-w-[565px]' src={itemCons} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
