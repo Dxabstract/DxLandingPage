@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import logoDx from '../assets/logoDx.svg'
+import { LanguageContext } from '../context/languajeContext';
 
 
 function NavBarComponent() {
+  const { changeLanguage } = useContext(LanguageContext);
+
+  const handleLanguageChange = (e) => {
+    changeLanguage(e.target.value);
+  };
 
   return (
     <div id='HeaderContent' className="container lg:container-xl mx-auto mt-[21px]">
@@ -29,9 +35,14 @@ function NavBarComponent() {
               <button className='text-fontDefault'>Contact Us</button>
             </li>
             <li>
-              <button className='text-fontDefault'>
-                Idioma:Es
-              </button>
+            <select onChange={handleLanguageChange} className='bg-[#00000000]'>
+              <option value="en" className='bg-[#00000000] text-[#242424]'>
+                EN
+              </option>
+              <option value="es" className='bg-[#00000000] text-[#242424]'>
+                ES
+              </option>
+            </select>
             </li>
           </ul>
         </nav>
