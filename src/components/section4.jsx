@@ -3,7 +3,7 @@ import Content from './contentAboutSlide'
 import MyBottomNavigation from './buttonNavigation'
 import ContentIMG from './contentAboutSlideIMG'
 
-function Section3() {
+function Section4() {
   return (
     <div id='contentAboutUs' className='bg-aboutBG bg-cover bg-center bg-no-repeat p-[100px] max-xl:p-[50px] max-sm:p-[20px]'>
         <div id="topSideAU" className="flex">
@@ -30,4 +30,4 @@ function Section3() {
   )
 }
 
-export default Section3
+export default Section4

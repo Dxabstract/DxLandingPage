@@ -11,7 +11,6 @@ const Section1 = () => {
     return (
         <div className='h-[100vh] flex justify-center flex-col gap-5'>
             <div className='flex items-center flex-col gap-[24px]' >
-                <h1>{t('welcome')}</h1>
                 <h1 className='leading-[100%] 2xl:text-fontBigTitles lg:text-fontBigTitles text-fontTitle font-montserrat font-semibold text-center   '>
                     Potencia tu Recorrido Creativo <br className='block max-sm:hidden'/>
                     Diseña aquí. Desarrolla aquí
