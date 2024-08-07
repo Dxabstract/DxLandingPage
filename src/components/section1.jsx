@@ -11,15 +11,15 @@ const Section1 = () => {
         <div className='h-[100vh] flex justify-center flex-col gap-5'>
             <div className='flex items-center flex-col gap-[24px]' >
                 <h1 className='leading-[100%] 2xl:text-fontBigTitles lg:text-fontBigTitles text-fontTitle font-montserrat font-semibold text-center   '>
-                    Potencia tu Recorrido Creativo <br/>
+                    Potencia tu Recorrido Creativo <br className='block max-sm:hidden'/>
                     Diseña aquí. Desarrolla aquí
                 </h1>
 
-                <p className='text-fontDefault text-center'>
+                <p className='text-fontDefault text-center max-sm:px-4'>
                     Impulsa tu marca con nuestras soluciones creativas en branding, diseño web y desarrollo
-                    <br/>
+                    <br className='block max-sm:hidden'/>
                     de software. Experimenta una transformación fluida y una orientación experta diseñada
-                    <br/>
+                    <br className='block max-sm:hidden'/>
                     para dar vida a tu visión. Únete a nosotros y eleva el potencial de tu proyecto.
                 </p>
 
