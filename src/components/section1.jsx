@@ -3,12 +3,9 @@ import logoDxST from '../assets/logoDxST.svg'
 import logoInstagram from '../assets/instagram.svg'
 import logoWhatsapp from '../assets/whatsapp.svg'
 import logoLinkedin from '../assets/linkedin.svg'
-import { useLanguage } from '../context/languageContext';
-import { translations } from '../translations';
 
 
 const Section1 = () => {
-    const { language } = useLanguage();
 
     return (
         <div className='h-[100vh] flex justify-center flex-col gap-5'>

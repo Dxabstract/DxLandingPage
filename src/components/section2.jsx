@@ -19,7 +19,7 @@ const Section2 = () => {
                         Conoce nuestros servicos                    
                     </h2>
                 </div>
-                <hr class="border-gray-500"/>
+                <hr className="border-gray-500"/>
 
                 <div className='h-[70%] p-7 w-full flex'>
                     <div className='w-[70%]'>
