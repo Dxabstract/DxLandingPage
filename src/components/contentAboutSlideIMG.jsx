@@ -2,17 +2,20 @@
 import React, { useContext } from 'react';
 import { NavigationContext } from '../context/buttonContext';
 
+import Ejemplo1 from '../assets/ejemplo1.svg';
+
+
 const ContentIMG = () => {
     const { selectedView } = useContext(NavigationContext);
   
     const renderContent = () => {
       switch (selectedView) {
         case 0:
-          return <img src="/src/assets/ejemplo1.svg" alt="" width={300} className='max-sm:w-[100px]' />;
+          return <img src={Ejemplo1} alt="" width={300} className='max-sm:w-[100px]' />;
         case 1:
-          return <img src="/src/assets/ejemplo2.svg" alt="" width={300} className='max-sm:w-[100px]'/>;
+          return <img src="../assets/ejemplo2.svg" alt="" width={300} className='max-sm:w-[100px]'/>;
         case 2:
-          return <img src="/src/assets/ejemplo3.svg" alt="" width={300} className='max-sm:w-[100px]'/>;
+          return <img src="./assets/ejemplo3.svg" alt="" width={300} className='max-sm:w-[100px]'/>;
         case 3:
           return <img src="/src/assets/ejemplo4.svg" alt="" width={300} className='max-sm:w-[100px]'/>;
         default:
