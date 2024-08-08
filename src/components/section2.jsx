@@ -30,7 +30,12 @@ const Section2 = () => {
                         <ItemBadge text={'Consultoria'} color={'#1A597D'}/>
                         </div>
                         <div className='w-[70%] h-full pt-[5%]'> 
-                            <p className='md:text-fontDefault lg:text-[22px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.</p>
+                            <p className='md:text-fontDefault lg:text-[22px]'>
+                                En Dxabstracts, te acompañamos en todo tu viaje digital, desde el diseño y desarrollo 
+                                de software hasta la consultoría y el branding. Ofrecemos soluciones personalizadas y 
+                                soporte continuo para convertir tu visión en realidad.
+
+                            </p>
                         </div>
                     </div>
                     <div className='w-[50%] flex items-center pr-[5%]'>
@@ -41,7 +46,11 @@ const Section2 = () => {
                 <div className='flex items-start h-[70%] p-4 w-full sm:hidden'>
                     <div className='w-[70%]'>
                         <div className='pr-3 h-full pt-7 flex items-center'> 
-                            <p className='text-[16px] text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.</p>
+                            <p className='text-[16px] text-justify'>
+                                En Dxabstracts, te acompañamos en todo tu viaje digital, desde el diseño y desarrollo 
+                                de software hasta la consultoría y el branding. Ofrecemos soluciones personalizadas y 
+                                soporte continuo para convertir tu visión en realidad.
+                            </p>
                         </div>
                     </div>
                     <div className='w-[50%] flex items-center pt-7'>
