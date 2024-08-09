@@ -11,55 +11,67 @@ const Section3 = () => {
         <div className='lg:container lg:mx-auto h-fit mb-[100px] [@media(max-height:640px)]:mt-[100px]  flex justify-center max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
             <div className='w-full max-w-[742px]'>
                 
-                <hr className='relative left-0 -z-10 border-[#808080]' />
+                <hr className='relative max-[1025px]:hidden right-[100%] top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
 
-                <div className='h-[50%] max-h-[722px] border border-[#808080] border-opacity-[55%] flex justify-center pt-9 max-lg:pb-6'>
+                <div className='h-[50%] max-h-[722px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
                     {/* First Element 0x0 */}
-                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
+                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
                             <h3 className='text-[#a7d910] text-[18px] font-montserrat'>Diseño web</h3>
-                            <p className='text-[25px] font-bold'>Transforma tus ideas en experiencias digitales impactantes.</p>
+                            <p className='text-[19px] lg:text-[25px] font-bold'>Transforma tus ideas en experiencias digitales impactantes.</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemDesing} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
                 </div>
 
-                <div className='h-[50%] max-h-[722px]  border border-[#808080] border-opacity-[55%] flex justify-center pt-9 max-lg:pb-6'>
+                <hr className='relative max-[1025px]:hidden  right-[100%] -top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
+
+                <div className='h-[50%] max-h-[722px] -mt-[2px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
                     {/* Second element 1x0 */}
-                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
+                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
                             <h3 className='text-[#2FA2E3] text-[18px] font-montserrat'>Branding</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Construimos marcas que resuenan y perduran en el mercado.</p>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Construimos marcas que resuenan y perduran en el mercado.</p>
                         </div>
                         <img className='lg:max-w-[565px]' src={itemBranding} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
 
                 </div>
+                <hr className='relative max-[1025px]:hidden  right-[100%] -top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
+
             </div>
             <div className='w-[100%] max-w-[742px]'>
-                <div className='lg:mt-[76px] h-[50%] max-h-[722px]  border border-[#808080] border-opacity-[55%] flex justify-center pt-9 max-lg:pb-6'>
+                
+                <hr className='relative max-[1025px]:hidden w-[100%] top-[77px] left-[100%] -z-10 border-[#808080] border-opacity-[55%]' />
+
+                <div className='lg:mt-[76px] h-[50%] max-h-[722px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+
+                    {/* <hr className='relative max-[1025px]:hidden w-[100%] left-[100%] bottom-[13px] -z-10 border-[#808080] border-opacity-[55%]' /> */}
+
                     {/* Third Element 0x1 */}
-                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
+                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
                             <h3 className='text-white text-[18px] font-montserrat'>Desarrollo de software</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Creamos soluciones de software a medida que impulsan tu negocio.</p>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Creamos soluciones de software a medida que impulsan tu negocio.</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemCode} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
-
-                </div>
-                <div className='h-[50%] max-h-[722px]  border border-[#808080] border-opacity-[55%] flex justify-center pt-9 max-lg:pb-6'>
-
-                    {/* Fourth Element 1x1 */}
-                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12'>
-                        <div>
-                            <h3 className='text-[#1A597D] text-[18px] font-montserrat'>Consultoria</h3>
-                            <p className='pt-3 text-[25px] font-bold'>Guiamos tu crecimiento con estrategias digitales personalizadas.</p>
-                        </div>
-                        <img className='lg:max-w-[565px]' src={itemCons} alt="Elemento visual sobre los servicios de diseño" />
-                    </div>
                     
                 </div>
+
+                <hr className='relative max-[1025px]:hidden w-[100%] bottom-[1px] left-[100%] -z-10 border-[#808080] border-opacity-[55%]' />
+
+                <div className='h-[50%] max-h-[722px] -mt-[2px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+                    {/* Fourth Element 1x1 */}
+                    <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
+                        <div>
+                            <h3 className='text-[#1A597D] text-[18px] font-montserrat'>Consultoria</h3>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Guiamos tu crecimiento con estrategias digitales personalizadas.</p>
+                        </div>
+                        <img className='lg:max-w-[530px]' src={itemCons} alt="Elemento visual sobre los servicios de diseño" />
+                    </div>
+                </div>
+                <hr className='relative max-[1025px]:hidden w-[100%] bottom-[1px] left-[100%] -z-10 border-[#808080] border-opacity-[55%]' />
             </div>
         </div>
 
