@@ -13,7 +13,7 @@ const Section3 = () => {
                 
                 <hr className='relative max-[1025px]:hidden right-[100%] top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
 
-                <div className='h-[50%] max-h-[722px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+                <div className='h-[50%] max-sm:m-4 max-sm:rounded-md max-h-[722px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
                     {/* First Element 0x0 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
@@ -26,7 +26,7 @@ const Section3 = () => {
 
                 <hr className='relative max-[1025px]:hidden  right-[100%] -top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
 
-                <div className='h-[50%] max-h-[722px] -mt-[2px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+                <div className='h-[50%] max-sm:m-4 max-sm:rounded-md max-h-[722px] -mt-[2px] border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
                     {/* Second element 1x0 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
@@ -44,7 +44,7 @@ const Section3 = () => {
                 
                 <hr className='relative max-[1025px]:hidden w-[100%] top-[77px] left-[100%] -z-10 border-[#808080] border-opacity-[55%]' />
 
-                <div className='lg:mt-[76px] h-[50%] max-h-[722px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+                <div className='lg:mt-[76px] h-[50%] max-sm:m-4 max-sm:rounded-md max-h-[722px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
 
                     {/* <hr className='relative max-[1025px]:hidden w-[100%] left-[100%] bottom-[13px] -z-10 border-[#808080] border-opacity-[55%]' /> */}
 
@@ -61,7 +61,7 @@ const Section3 = () => {
 
                 <hr className='relative max-[1025px]:hidden w-[100%] bottom-[1px] left-[100%] -z-10 border-[#808080] border-opacity-[55%]' />
 
-                <div className='h-[50%] max-h-[722px] -mt-[2px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
+                <div className='h-[50%] max-sm:m-4 max-sm:rounded-md max-h-[722px] -mt-[2px]  border border-[#808080] border-opacity-[55%] flex flex-col items-center justify-center'>
                     {/* Fourth Element 1x1 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>

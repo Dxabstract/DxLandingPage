@@ -6,9 +6,8 @@ const Section2 = () => {
 
     return (
         <div className='2xl:h-[70vh] [@media(max-height:635px)]:h-[110vh] h-[80vh] flex justify-center'>
-            <div className='relative container sm:max-[1190px]:mx-9 max-w-[1111px] h-full max-h-[511px]'>
+            <div className='max-sm:m-3 relative container sm:max-[1190px]:mx-9 max-w-[1111px] h-full max-h-[511px]'>
                 <div className='absolute inset-0 bg-[#3C3C43] opacity-25 rounded-[20px]'></div>
-
 
                 <div className='relative z-10 h-[30%] pl-[4%] lg:flex  max-lg:pt-8 flex-wrap items-center justify-start gap-5'> 
                     <h2 className='text-[30px] font-montserrat font-semibold text-white'>
