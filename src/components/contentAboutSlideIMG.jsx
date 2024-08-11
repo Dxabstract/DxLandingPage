@@ -12,11 +12,11 @@ const ContentIMG = () => {
   
     const renderContent = () => {
       switch (selectedView) {
-        case 0:
-          return <img src={iconRaigo} alt="" width={300} className='max-sm:w-[100px]' />;
         case 1:
-          return <img src={iconSofia} alt="" width={300} className='max-sm:w-[100px]'/>;
+          return <img src={iconRaigo} alt="" width={300} className='max-sm:w-[100px]' />;
         case 2:
+          return <img src={iconSofia} alt="" width={300} className='max-sm:w-[100px]'/>;
+        case 3:
           return <img src={iconCuervo} alt="" width={300} className='max-sm:w-[100px]'/>;
 
         default:

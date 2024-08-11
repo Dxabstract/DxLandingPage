@@ -1,4 +1,18 @@
 {
-    "welcome": "Welcome to React",
-    "language": "Language"
-  }
+  "heading1S1": "Empower your Creative Journey",
+  "heading2S1": "Design here, Develop here.",
+  "paragraph1S1": "Boost your brand with our creative solutions in branding, web design and development.",
+  "paragraph2S1": "software. Experience a seamless transformation and expert guidance designed to help you achieve your goals.",
+  "paragraph3S1": "to bring your vision to life. Join us and elevate the potential of your project.",
+  "heading1S2": "Your complete journey with DxAbstract",
+  "heading2S2": "Get to know our services",
+  "paragraph1S2": "At Dxabstracts, we accompany you throughout your digital journey, from software design and development to consulting and branding. We offer customized solutions and ongoing support to turn your vision into reality.",
+  "badge1S2": "Web design",
+  "badge2S2": "Software development",
+  "badge3S2": "Branding",
+  "badge4S2": "Consulting",
+  "paragraph1S3": "Transform your ideas into impactful digital experiences.",
+  "paragraph2S3": "We build brands that resonate and endure in the marketplace.",
+  "paragraph3S3": "We create customized software solutions that boost your business.",
+  "paragraph4S3": "We guide your growth with customized digital strategies."
+}

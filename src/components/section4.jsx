@@ -7,7 +7,7 @@ import BgAbout from '../assets/aboutBG.svg';
 function Section4() {
     return (
 
-      <div className='relative'>
+      <div id="team" className='relative'>
         <img 
           className='absolute left-0 top-0 w-full h-full object-cover -z-10' 
           src={BgAbout} 
@@ -19,15 +19,15 @@ function Section4() {
             <div className='w-[60%] max-lg:hidden'></div>
             <div className='w-[40%] max-xl:w-[100%]'>
               <h2 className='font-montserrat font-bold text-fontTitle text-center'>About us</h2>
-              <p className='font-inter text-fontDefault text-center  max-md:mb-9'>
+              <p className='font-inter text-fontDefault text-center  max-md:mb-9 mt-[25px] max-sm:mt-[10px]'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt
                 alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed.
               </p>
             </div>
           </div>
-          <div id='botSideAU' className="flex h-[100%] justify-center align-center">
-            <div id='contentInfo' className="w-[60%] flex flex-col gap-[10px] max-xl:w-[60%] max-sm:w-[100%]">
+          <div id='botSideAU' className="flex h-[100%] justify-center align-center mt-[200px] max-sm:mt-[20px]">
+            <div id='contentInfo' className="w-[60%] flex flex-col gap-[10px] max-sm:w-[100%]">
               <h2 className='font-montserrat font-bold text-fontSubTitle'>Our staff</h2>
   
               <div id="contentButtonsAU" className='flex flex-col gap-5'>

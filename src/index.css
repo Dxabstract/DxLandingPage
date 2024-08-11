@@ -18,7 +18,10 @@
   overflow-x: hidden;
 }
 
-
+html {
+  scroll-behavior: smooth;
+  }
+  
 .MuiBottomNavigation-root{
   display: inline !important;
   background-color: transparent !important;
@@ -51,7 +54,9 @@
 #menu-toggle:checked ~ #NavBarContent {
   display: block;
 }
-
+.no-scroll {
+  overflow: hidden;
+}
 @media (max-width: 767px) {
   #NavBarContent {
     display: none;
@@ -75,6 +80,9 @@
 
   #menu-toggle:checked ~ #NavBarContent {
     transform: translateX(0px);
+  }
+  #menu-toggle:checked ~ #root {
+    overflow-x: hidden;
   }
 }
 

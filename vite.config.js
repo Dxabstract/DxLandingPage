@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/DxLandingPage/',
   plugins: [react()],
-  base: 'https://Dxabstract.github.io/DxLandingPage',
 })
