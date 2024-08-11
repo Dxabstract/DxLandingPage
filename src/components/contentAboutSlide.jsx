@@ -10,12 +10,14 @@ const Content = () => {
     const renderContent = () => {
       switch (selectedView) {
         case 0:
-          return <CardAboutUs text={"Raigo, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges} />;
+          return <CardAboutUs text={"Dxa, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges} />;
         case 1:
-          return <CardAboutUs text={"Sofia, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges2} />;
+          return <CardAboutUs text={"Raigo, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges} />;
         case 2:
+          return <CardAboutUs text={"Sofia, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges2} />;
+        case 3:
           return <CardAboutUs text={"Cuervo, sit amet consectetur adipisicing elit. Deleniti sint ipsa aliquid, qui rerum, minima illum deserunt alias eaque eius saepe a nostrum autem architecto. Assumenda numquam ad magni sed."} badge={badges3} />;
-        default:
+          default:
           return <h1>Welcome</h1>;
       }
     };

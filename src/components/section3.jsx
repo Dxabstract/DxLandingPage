@@ -3,12 +3,14 @@ import itemDesing from '../assets/itemDesing.svg';
 import itemBranding from '../assets/itemBranding.svg';
 import itemCode from '../assets/itemCode.svg';
 import itemCons from '../assets/itemCons.svg';
+import { useTranslation } from 'react-i18next';
 
 
 const Section3 = () => {
+    const {t} = useTranslation();
 
     return (
-        <div className='lg:container lg:mx-auto h-fit mb-[100px] [@media(max-height:640px)]:mt-[100px]  flex justify-center max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
+        <div id='services' className='lg:container lg:mx-auto h-fit mb-[100px] [@media(max-height:640px)]:mt-[100px]  flex justify-center max-[1025px]:flex-col max-[1025px]:items-center  lg:gap-0'>
             <div className='w-full max-w-[742px]'>
                 
                 <hr className='relative max-[1025px]:hidden right-[100%] top-[1px] -z-10 border-[#808080] border-opacity-[55%]' />
@@ -17,8 +19,8 @@ const Section3 = () => {
                     {/* First Element 0x0 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
-                            <h3 className='text-[#a7d910] text-[18px] font-montserrat'>Diseño web</h3>
-                            <p className='text-[19px] lg:text-[25px] font-bold'>Transforma tus ideas en experiencias digitales impactantes.</p>
+                            <h3 className='text-[#a7d910] text-[18px] font-montserrat'>{t('badge1S2')}</h3>
+                            <p className='text-[19px] lg:text-[25px] font-bold'>{t('paragraph1S3')}</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemDesing} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -30,8 +32,8 @@ const Section3 = () => {
                     {/* Second element 1x0 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
-                            <h3 className='text-[#2FA2E3] text-[18px] font-montserrat'>Branding</h3>
-                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Construimos marcas que resuenan y perduran en el mercado.</p>
+                            <h3 className='text-[#2FA2E3] text-[18px] font-montserrat'>{t('badge3S2')}</h3>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>{t('paragraph2S3')}</p>
                         </div>
                         <img className='lg:max-w-[565px]' src={itemBranding} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -51,8 +53,8 @@ const Section3 = () => {
                     {/* Third Element 0x1 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
-                            <h3 className='text-white text-[18px] font-montserrat'>Desarrollo de software</h3>
-                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Creamos soluciones de software a medida que impulsan tu negocio.</p>
+                            <h3 className='text-white text-[18px] font-montserrat'>{t('badge2S2')}</h3>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>{t('paragraph3S3')}</p>
                         </div>
                         <img className='lg:max-w-[500px]' src={itemCode} alt="Elemento visual sobre los servicios de diseño" />
                     </div>
@@ -65,8 +67,8 @@ const Section3 = () => {
                     {/* Fourth Element 1x1 */}
                     <div className='w-[80%] flex flex-col items-center gap-7 lg:gap-12 p-4 lg:p-8'>
                         <div>
-                            <h3 className='text-[#1A597D] text-[18px] font-montserrat'>Consultoria</h3>
-                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>Guiamos tu crecimiento con estrategias digitales personalizadas.</p>
+                            <h3 className='text-[#1A597D] text-[18px] font-montserrat'>{t('badge4S2')}</h3>
+                            <p className='pt-3 text-[19px] lg:text-[25px] font-bold'>{t('paragraph4S3')}</p>
                         </div>
                         <img className='lg:max-w-[530px]' src={itemCons} alt="Elemento visual sobre los servicios de diseño" />
                     </div>

@@ -31,7 +31,7 @@ function App() {
       <Section1 />
       <Section2 />
       <Section3 />
-      {/* <Section4 /> */}
+      <Section4 />
       {/* <div className='relative'>
         <div className='h-full flex justify-center'>
         <img

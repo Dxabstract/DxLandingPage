@@ -16,7 +16,7 @@ const { changeLanguage } = useContext(LanguageContext);
     changeLanguage(e.target.value);
   };
   return (
-    <div className='w-[100%] bg-[#242424] p-[50px]'>
+    <div id='contact' className='w-[100%] bg-[#242424] p-[50px]'>
        <div className='flex justify-between max-md:flex-col max-md:gap-6 max-md:items-center'>
         <div className='md:w-[30%]'>
             <img src={logo} alt="" width={200}/>
@@ -57,10 +57,10 @@ const { changeLanguage } = useContext(LanguageContext);
                 ES
               </option>
             </select></li>
-            <li><a className='text-default font-bold'>Our Work</a></li>
-            <li><a className='text-default font-bold'>Our Services</a></li>
-            <li><a className='text-default font-bold'>Our Team</a></li>
-            <li><a className='text-default font-bold'>Contact Us</a></li>
+            <li><a href='#work' className='text-default font-bold'>Our Work</a></li>
+            <li><a href='#services' className='text-default font-bold'>Our Services</a></li>
+            <li><a href='#team' className='text-default font-bold'>Our Team</a></li>
+            <li><a href='#contact' className='text-default font-bold'>Contact Us</a></li>
         </ul>
        </div>
        <hr className='border-[1px] border-[#ffffff30] mt-[20px]' />
